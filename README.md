@@ -8,3 +8,5 @@ There are four different pages, some using protected routes with auth listeners.
 
 I used compound components (just a design pattern) to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components. Using compound components made my actual dumb components really easy to test.
 
+
+![](netflix-preview.png)
