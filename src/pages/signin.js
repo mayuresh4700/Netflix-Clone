@@ -17,7 +17,6 @@ export default function Signin() {
     const isInvalid = EamilAddress === '' || Password === '';
     const handleSignIn = (event) =>{
        event.preventDefault();
-       
        firebase
         .auth()
         .signInWithEmailAndPassword(EamilAddress,Password)

@@ -19,7 +19,6 @@ export default function Player ({children,...restProps}){
 
 Player.Video = function PlayerVideo({ src, ...restProps }) {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
-
   return showPlayer
     ? ReactDOM.createPortal(
         <Overlay onClick={() => setShowPlayer(false)} data-testid="player">
@@ -34,7 +33,6 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
       )
     : null;
 };
-
 
 Player.Button = function PlayerButton({...restProps}){
     const {showPlayer,setShowPlayer} = useContext(PlayerContext)
