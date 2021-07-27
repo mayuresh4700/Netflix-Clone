@@ -9,7 +9,7 @@ import {useAuthListener} from "./hooks"
 
 export default function App() {
   const {user} = useAuthListener();
-  // console.log(user)
+
   return (
     <Router>
       <Switch>
@@ -46,7 +46,6 @@ export default function App() {
         >
           <Browse />
         </ProtectedRoute>
-
 
       </Switch>
     </Router>
