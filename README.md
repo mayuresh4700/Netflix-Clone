@@ -1,4 +1,4 @@
-This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. 
+This application (a Netflix clone 🎈) was built using React (Custom Hooks, Context), Firebase & Styled Components. 
 I have built the following pages within this application: 
 sign in, 
 sign up, 
